@@ -120,11 +120,13 @@ body, h1, h2, p, ul, li {
 
 
 .headdigi {
+  
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    padding-top: 80px;
+    height: 100px; 
+
    
 }
 .download-button {
