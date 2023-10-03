@@ -119,12 +119,14 @@ body, h1, h2, p, ul, li {
 
 
 
-.headdigi{
-    position: relative;
-    
+.headdigi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     padding-top: 80px;
-    
-
+    /* Other styles for .headdigi */
 }
 .download-button {
     display: inline-block;
